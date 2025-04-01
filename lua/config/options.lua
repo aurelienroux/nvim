@@ -11,6 +11,8 @@ vim.schedule(function()
  	vim.opt.clipboard = 'unnamedplus'
 end)
 vim.opt.breakindent = true
+vim.opt.wrap = false
+vim.opt.sidescrolloff = 8  -- Keep 8 characters visible at the edge when scrollingT
 vim.opt.undofile = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
@@ -23,5 +25,5 @@ vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 7
 vim.opt.confirm = true
